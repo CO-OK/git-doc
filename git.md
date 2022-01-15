@@ -28,3 +28,14 @@ git add 文件名
 git commit -m  "日志信息"  文件名  
 git reflog 查看简略日志  
 git log 查看详细日志
+
+### 历史版本
+
+#### 查看历史版本
+
+git log  
+git reflog
+
+#### 版本穿梭
+
+git reset --hard 版本号
