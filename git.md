@@ -63,3 +63,21 @@ git branch -d 分支名
 
 ### 冲突合并
 产生冲突后需要手动修改冲突文件，之后add，commit，commit时不能加冲突文件名
+
+## github 操作
+
+### 创建远程仓库别名
+git remote -v 查看当前所有远程地址别名  
+git remote add 别名 远程地址  （给远程地址其一个别名，方便push、pull等）
+
+### 推送本地分支到远程仓库
+git push 别名 分支  （注意最小单元是分支）  
+git push 远程地址 分支
+
+### 拉取远程库到本地库
+git pull 远程库地址别名 远程分支名  
+git pull 远程库地址 远程分支名
+
+### 克隆远程库到本地
+git clone 远程地址  
+克隆下来以后会自动其一个别名叫origin
