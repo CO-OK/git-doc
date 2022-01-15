@@ -25,5 +25,6 @@ git status
 git add 文件名
 
 ### 提交本地库
-git commit -m  "日志信息"  文件名
-
+git commit -m  "日志信息"  文件名  
+git reflog 查看简略日志  
+git log 查看详细日志
