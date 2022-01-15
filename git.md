@@ -49,4 +49,17 @@ git branch -v （可以查看所有分支）
 git branch 分支名
 
 ### 切换分支
-git checkout 分支名
+git checkout 分支名  
+切换分支的本质是切换head指针
+
+<img src=./img1.png  width=80%/>
+
+### 删除分支
+git branch -d 分支名
+
+### 合并分支
+
+把指定的分支合并到当前分支上 ：git merge 分支名
+
+### 冲突合并
+产生冲突后需要手动修改冲突文件，之后add，commit，commit时不能加冲突文件名
