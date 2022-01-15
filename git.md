@@ -9,7 +9,7 @@
 局域网：gitlab
 互联网：github、gitee
 
-## git命令
+## git基本命令
 ### 设置用户签名
 git config --gloabl user.name 用户名
 git config --global user.email 邮箱
@@ -39,3 +39,14 @@ git reflog
 #### 版本穿梭
 
 git reset --hard 版本号
+
+## git分支操作
+
+### 查看分支
+git branch -v （可以查看所有分支）
+
+### 创建分支
+git branch 分支名
+
+### 切换分支
+git checkout 分支名
